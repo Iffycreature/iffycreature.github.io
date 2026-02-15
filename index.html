@@ -1,14 +1,197 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <title>Example</title>
+        
+        <link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/647d03d671.js" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>&#128075; Rachel Lee</title>
+		
     </head>
+    
     <body>
-        <h1>Name</h1>
-        <p>description description description description description description description</p>
-        <p>Loves </p>
-        <p>LinkedIn</p>
-        <p>Resume</p>
-        <p>email</p>
+	<header id="top"></header>
+	<div class="wrapper">
+		<p class="title">
+			<img src="assets/avatar.png" alt="avatar.png" class="avatar">
+			Rachel Lee
+		</p>
+		<p class="bold">Artist & Game Developer</p>
+		<p class="medium">Hello and welcome to my site! I am an aspiring indie dev. Always learning &#128170</p>
+		<p class = "medium">Feel free to reach out!</p>
+		
+		
+		<div class="social-icons">
+			<a href="https://www.youtube.com/@iffycreature" target="_blank" rel="noopener noreferrer">
+			<i class="fab fa-youtube fa-3x"></i>
+			</a>
+
+			<a href="https://www.instagram.com/iffycreature/" target="_blank" rel="noopener noreferrer">
+			<i class="fab fa-instagram fa-3x"></i>
+			</a>
+			
+			<a href="https://itch.io/profile/iffycreature" target="_blank" rel="noopener noreferrer">
+			<i class="fab fa-itch-io fa-3x"></i>
+			</a>
+		</div>
+		
+		<!--<a class="medium hover-underline" href="http://linkedin.com/in/rachel-lee7" target="_blank">LinkedIn</a>-->
+		<!--<a class="medium hover-underline" href="assets/RachelLee_resume.pdf" target="_blank" style= "display: inline-block; margin-left: 1rem">Download resume</a>-->
+		<p style="color:#078adb" class="medium"><span class="hover-underline pointer" onclick="showPopup(); 
+			copyToClipboard('iffycreature.games@proton.me')">iffycreature.games@proton.me</span> &#128203;
+			<span id="popup" class="popup-text" style=color:black> Copied!</span></p>
+		<p class="medium">I love <span id="emoji">&#127912;</span></p> <!-- utf-8 -->
+		
+		<br><br>
+		
+		<p class="bold">Current Projects</p>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<a class="bold hover-underline" href="https://store.steampowered.com/app/3384330/Art_Strikers/" target="_blank">Art Strikers</a>
+					<p class="medium">2024-current</p>
+					<p class="medium">Role: Portrait Artist</p>
+					<p class="medium">Draw your path to victory in Art Strikers! A unique art themed bullet hell shoot-em-up that looks and plays like a beautiful work of art. </p>
+					<div class="iframe-wrapper">
+					<iframe
+						src="https://www.youtube.com/embed/tVhBeIdt1Mw?rel=0" frameborder="0">
+					</iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+		
+		<p class="bold">Past Projects</p>	
+		<div class="container">
+			<div class="card">
+					<div class="content">
+						<a class="bold hover-underline" href="https://github.com/rachleearts/Street-FightEAR---final-week/releases" target="_blank">Street FightEAR</a>
+						<p class="medium">Dec. 1 - 8, 2023</p>
+						<p class="medium">Role: 2D/3D Artist/Animator, Programmer</p>
+						<p class="medium">A school project that aims to educate young adults participating in contact sports about cauliflower ear.</p>
+						<div class="iframe-wrapper">
+						<iframe
+							src="https://youtube.com/embed/fTFsedqaJig" frameborder="0">
+						</iframe>
+						</div>
+					</div>
+			</div>
+			
+			<div class="card">
+				<div class="content">
+					<a class="bold hover-underline" href="https://canofsoap.itch.io/double-crossing" target="_blank">Double Crossing</a>
+					<p class="medium">2020 Game Jam</p>
+					<p class="medium">Role: Pixel Artist/Animator</p>
+					<p class="medium">An Animal Crossing fangame where all the villagers want to kill you!</p>
+					<img src="assets/doublecrossing.png" alt="doublecrossing.png">
+				</div>
+			</div>
+		
+			<div class="card">
+				<div class="content">
+					<a class="bold hover-underline" href="https://store.steampowered.com/app/1267130/Axe_Girl/" target="_blank">Axe Girl</a>
+					<p class="medium">2019-2020</p>
+					<p class="medium">Role: Portrait Artist</p>
+					<p class="medium">Axe Girl is an action platformer where you play as Axela, a young lumberjack who lost her sawmill after
+					a mysterious meteorite disaster. Help her rebuild it by collecting the 6 power cells she needs to run it again. Fight, run,
+					and bounce your way through fearsome foes and perilous obstacles!</p>
+					<div class="iframe-wrapper">
+					<iframe
+						src="https://youtube.com/embed/8kOj7WmjFhU" frameborder="0">
+					</iframe>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="content">
+					<a class="bold hover-underline" href="https://smeef-224.itch.io/saucy-secrets" target="_blank">Saucy Secrets</a>
+					<p class="medium">2019 Game Jam</p>
+					<p class="medium">Role: Artist/Writer</p>
+					<p class="medium">A visual novel about secret admirers for PROTO Game Jam 2019! Watch romance bloom at familiar locations around UCI. </p>
+					<img src="assets/saucysecrets.png" alt="saucysecrets.png">
+				</div>
+			</div>
+				
+			<div class="card">
+				<div class="content">
+					<a class="bold hover-underline" href="https://nazazel.itch.io/soad-saves-metal" target="_blank">System Saves Metal</a>
+					<p class="medium">2018-2020</p>
+					<p class="medium">Role: Pixel Artist/Animator</p>
+					<p class="medium">The essence of heavy metal is in jeopardy when four goddesses of the underworld emerge to steal sick riffs 
+					for themselves. Almost all bands have lost their motivation and ability to play...all but one! System of a Down is the only 
+					group standing between saving heavy metal and succumbing to the goddesses like the rest. Do you have what it takes to help 
+					System save metal?
+					The game lies somewhere between a boss rush and a brawler, sprinkled with bullet hell elements here and there.</p>
+					<div class="iframe-wrapper">
+					<iframe
+						src="https://www.youtube.com/embed/hY5VUMtCjps?rel=0" frameborder="0">
+					</iframe>
+					</div>
+				</div>
+			</div>
+				
+			<div class="card">
+				<div class="content">
+					<a class="bold hover-underline" href="https://theavianlord.itch.io/a-corgi-at-night" target="_blank">A Corgi at Night</a>
+					<p class="medium">2018-2019</p>
+					<p class="medium">Role: Pixel Artist/Animator</p>
+					<p class="medium">A Corgi at Night is a 2D side scrolling platformer where you play as a cute corgi named Quinn! Help Quinn 
+					find his way back home to his owners while avoiding a myriad of enemies that want to hurt and impound stray dogs!</p>
+					<div class="iframe-wrapper">
+					<iframe
+						src="https://www.youtube.com/embed/WDCqaWWtBUo?rel=0" frameborder="0">
+					</iframe>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="content">
+					<a class="bold hover-underline" href="https://tunsy.itch.io/daisys-birthday-blowout" target="_blank">Daisy's Birthday Blowout</a>
+					<p class="medium">2016-2017</p>
+					<p class="medium">Role: Pixel Artist/Animator</p>
+					<p class="medium">A Unity based top down 2D shooter for UCI VGDC Fall 2016 inspired by Splatoon and Hotline Miami. Wholesome fun for the whole family!</p>
+					<img src="assets/daisy.png" alt="daisy.png">
+				</div>
+			</div>
+		</div>
+		<p style="text-align: right;">
+			<a href="#top" class="medium hover-underline">Back to top</a>
+		</p>
+		
+		<br><br>
+		
+	<script>
+		//unicode
+		//palette, pawprint, gi, camping, gaming, plant, sushi, beach
+		const emojis = ['\u{1F3A8}', '\u{1F43E}', '\u{1F94B}','\u{1F3D5}\ufe0f', '\u{1F3AE}', '\u{1F331}', '\u{1F363}', '\u{1F3D6}\ufe0f'];
+		let index = 0;
+	
+		setInterval(() => {
+		  index = (index + 1) % emojis.length;
+		  document.getElementById('emoji').textContent = emojis[index];
+		}, 2000); // 2000ms = 2 seconds
+	</script>
+
+	<script>
+		function showPopup() {
+		  const popup = document.getElementById('popup');
+		  popup.classList.add('show');
+		  setTimeout(() => {
+			popup.classList.remove('show');
+		  }, 1000);
+		}
+	</script>
+
+	<script>
+		function copyToClipboard(text) {
+		  navigator.clipboard.writeText(text)
+		}
+	</script>
+	
     </body>
+	
 </html>
